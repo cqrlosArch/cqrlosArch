@@ -28,8 +28,10 @@ class Skills extends SoftwareDeveloper {
 
     preprocessos = {
         html: 'Pug',
-        css: 'Sass/SCSS',
-        css: 'PostCSS',
+        CSS: {
+            Sass/SCSS': true,
+            PostCSS: true
+         },
         javascript: {
             babel: true,
             typescript: async () => await learn()
